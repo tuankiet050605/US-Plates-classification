@@ -1,0 +1,2482 @@
+{
+  "dataset": "US license plates - Image Classification",
+  "splits": {
+    "train": 8161,
+    "valid": 280,
+    "test": 280
+  },
+  "n_classes": 56,
+  "class_names": [
+    "ALABAMA",
+    "ALASKA",
+    "AMERICAN SAMOA",
+    "ARIZONA",
+    "ARKANSAS",
+    "CALIFORNIA",
+    "CNMI",
+    "COLORADO",
+    "CONNECTICUT",
+    "DELAWARE",
+    "FLORIDA",
+    "GEORGIA",
+    "GUAM",
+    "HAWAI",
+    "IDAHO",
+    "ILLINOIS",
+    "INDIANA",
+    "IOWA",
+    "KANSAS",
+    "KENTUCKY",
+    "LOUISIANA",
+    "MAINE",
+    "MARYLAND",
+    "MASSACHUSETTS",
+    "MICHIGAN",
+    "MINNESOTA",
+    "MISSIPPI",
+    "MISSOURI",
+    "MONTANA",
+    "NEBRASKA",
+    "NEVADA",
+    "NEW HAMPSHIRE",
+    "NEW JERSEY",
+    "NEW MEXICO",
+    "NEW YORK",
+    "NORTH CAROLINA",
+    "NORTH DAKOTA",
+    "OHIO",
+    "OKLAHOMA",
+    "OREGON",
+    "PENNSYLVANIA",
+    "PUERTO RICO",
+    "RHODE ISLAND",
+    "SOUTH CAROLINA",
+    "SOUTH DAKOTA",
+    "TENNESSEE",
+    "TEXAS",
+    "U S VIRGIN ISLANDS",
+    "UTAH",
+    "VERMONT",
+    "VIRGINIA",
+    "WASHINGTON",
+    "WASHINGTON DC",
+    "WEST VIRGINIA",
+    "WISCONSIN",
+    "WYOMING"
+  ],
+  "classes_missing_per_split": {
+    "train": [],
+    "valid": [],
+    "test": []
+  },
+  "csv_files": [
+    "plates.csv"
+  ],
+  "n_non_image_files": 0,
+  "odd_class_names": [
+    {
+      "tên thư mục": "CNMI",
+      "tên chuẩn gần nhất": "(không có tên gần giống)",
+      "số ảnh": 96
+    },
+    {
+      "tên thư mục": "HAWAI",
+      "tên chuẩn gần nhất": "HAWAII",
+      "số ảnh": 154
+    },
+    {
+      "tên thư mục": "MISSIPPI",
+      "tên chuẩn gần nhất": "MISSISSIPPI",
+      "số ảnh": 158
+    },
+    {
+      "tên thư mục": "U S VIRGIN ISLANDS",
+      "tên chuẩn gần nhất": "US VIRGIN ISLANDS",
+      "số ảnh": 156
+    }
+  ],
+  "csv_check": {
+    "số dòng trong CSV": 8721,
+    "số ảnh trên đĩa": 8721,
+    "dòng CSV trỏ tới file không tồn tại": 0,
+    "ảnh trên đĩa không có trong CSV": 0,
+    "dòng có cột labels khác tên thư mục lớp": 0,
+    "dòng có cột data set khác thư mục split": 0,
+    "số nhãn khác nhau trong cột labels": 56,
+    "class id ứng với nhiều hơn một nhãn": 0
+  },
+  "odd_names_in_csv": [
+    {
+      "tên trong bộ gốc": "CNMI",
+      "tên chuẩn": "(không có tên gần giống)",
+      "thư mục mang tên này": "train (86), valid (5), test (5)",
+      "dòng CSV: cột labels": 96,
+      "dòng CSV: cột filepaths": 96,
+      "class id": "6",
+      "dòng CSV dùng tên chuẩn": 0
+    },
+    {
+      "tên trong bộ gốc": "HAWAI",
+      "tên chuẩn": "HAWAII",
+      "thư mục mang tên này": "train (144), valid (5), test (5)",
+      "dòng CSV: cột labels": 154,
+      "dòng CSV: cột filepaths": 154,
+      "class id": "13",
+      "dòng CSV dùng tên chuẩn": 0
+    },
+    {
+      "tên trong bộ gốc": "MISSIPPI",
+      "tên chuẩn": "MISSISSIPPI",
+      "thư mục mang tên này": "train (148), valid (5), test (5)",
+      "dòng CSV: cột labels": 158,
+      "dòng CSV: cột filepaths": 158,
+      "class id": "26",
+      "dòng CSV dùng tên chuẩn": 0
+    },
+    {
+      "tên trong bộ gốc": "U S VIRGIN ISLANDS",
+      "tên chuẩn": "US VIRGIN ISLANDS",
+      "thư mục mang tên này": "train (146), valid (5), test (5)",
+      "dòng CSV: cột labels": 156,
+      "dòng CSV: cột filepaths": 156,
+      "class id": "47",
+      "dòng CSV dùng tên chuẩn": 0
+    }
+  ],
+  "class_counts": {
+    "ALABAMA": {
+      "train": 157,
+      "valid": 5,
+      "test": 5,
+      "tổng": 167
+    },
+    "ALASKA": {
+      "train": 149,
+      "valid": 5,
+      "test": 5,
+      "tổng": 159
+    },
+    "AMERICAN SAMOA": {
+      "train": 143,
+      "valid": 5,
+      "test": 5,
+      "tổng": 153
+    },
+    "ARIZONA": {
+      "train": 139,
+      "valid": 5,
+      "test": 5,
+      "tổng": 149
+    },
+    "ARKANSAS": {
+      "train": 169,
+      "valid": 5,
+      "test": 5,
+      "tổng": 179
+    },
+    "CALIFORNIA": {
+      "train": 154,
+      "valid": 5,
+      "test": 5,
+      "tổng": 164
+    },
+    "CNMI": {
+      "train": 86,
+      "valid": 5,
+      "test": 5,
+      "tổng": 96
+    },
+    "COLORADO": {
+      "train": 133,
+      "valid": 5,
+      "test": 5,
+      "tổng": 143
+    },
+    "CONNECTICUT": {
+      "train": 143,
+      "valid": 5,
+      "test": 5,
+      "tổng": 153
+    },
+    "DELAWARE": {
+      "train": 141,
+      "valid": 5,
+      "test": 5,
+      "tổng": 151
+    },
+    "FLORIDA": {
+      "train": 149,
+      "valid": 5,
+      "test": 5,
+      "tổng": 159
+    },
+    "GEORGIA": {
+      "train": 136,
+      "valid": 5,
+      "test": 5,
+      "tổng": 146
+    },
+    "GUAM": {
+      "train": 162,
+      "valid": 5,
+      "test": 5,
+      "tổng": 172
+    },
+    "HAWAI": {
+      "train": 144,
+      "valid": 5,
+      "test": 5,
+      "tổng": 154
+    },
+    "IDAHO": {
+      "train": 144,
+      "valid": 5,
+      "test": 5,
+      "tổng": 154
+    },
+    "ILLINOIS": {
+      "train": 144,
+      "valid": 5,
+      "test": 5,
+      "tổng": 154
+    },
+    "INDIANA": {
+      "train": 152,
+      "valid": 5,
+      "test": 5,
+      "tổng": 162
+    },
+    "IOWA": {
+      "train": 144,
+      "valid": 5,
+      "test": 5,
+      "tổng": 154
+    },
+    "KANSAS": {
+      "train": 149,
+      "valid": 5,
+      "test": 5,
+      "tổng": 159
+    },
+    "KENTUCKY": {
+      "train": 146,
+      "valid": 5,
+      "test": 5,
+      "tổng": 156
+    },
+    "LOUISIANA": {
+      "train": 146,
+      "valid": 5,
+      "test": 5,
+      "tổng": 156
+    },
+    "MAINE": {
+      "train": 145,
+      "valid": 5,
+      "test": 5,
+      "tổng": 155
+    },
+    "MARYLAND": {
+      "train": 175,
+      "valid": 5,
+      "test": 5,
+      "tổng": 185
+    },
+    "MASSACHUSETTS": {
+      "train": 156,
+      "valid": 5,
+      "test": 5,
+      "tổng": 166
+    },
+    "MICHIGAN": {
+      "train": 148,
+      "valid": 5,
+      "test": 5,
+      "tổng": 158
+    },
+    "MINNESOTA": {
+      "train": 142,
+      "valid": 5,
+      "test": 5,
+      "tổng": 152
+    },
+    "MISSIPPI": {
+      "train": 148,
+      "valid": 5,
+      "test": 5,
+      "tổng": 158
+    },
+    "MISSOURI": {
+      "train": 149,
+      "valid": 5,
+      "test": 5,
+      "tổng": 159
+    },
+    "MONTANA": {
+      "train": 147,
+      "valid": 5,
+      "test": 5,
+      "tổng": 157
+    },
+    "NEBRASKA": {
+      "train": 143,
+      "valid": 5,
+      "test": 5,
+      "tổng": 153
+    },
+    "NEVADA": {
+      "train": 139,
+      "valid": 5,
+      "test": 5,
+      "tổng": 149
+    },
+    "NEW HAMPSHIRE": {
+      "train": 158,
+      "valid": 5,
+      "test": 5,
+      "tổng": 168
+    },
+    "NEW JERSEY": {
+      "train": 149,
+      "valid": 5,
+      "test": 5,
+      "tổng": 159
+    },
+    "NEW MEXICO": {
+      "train": 131,
+      "valid": 5,
+      "test": 5,
+      "tổng": 141
+    },
+    "NEW YORK": {
+      "train": 140,
+      "valid": 5,
+      "test": 5,
+      "tổng": 150
+    },
+    "NORTH CAROLINA": {
+      "train": 143,
+      "valid": 5,
+      "test": 5,
+      "tổng": 153
+    },
+    "NORTH DAKOTA": {
+      "train": 142,
+      "valid": 5,
+      "test": 5,
+      "tổng": 152
+    },
+    "OHIO": {
+      "train": 157,
+      "valid": 5,
+      "test": 5,
+      "tổng": 167
+    },
+    "OKLAHOMA": {
+      "train": 147,
+      "valid": 5,
+      "test": 5,
+      "tổng": 157
+    },
+    "OREGON": {
+      "train": 113,
+      "valid": 5,
+      "test": 5,
+      "tổng": 123
+    },
+    "PENNSYLVANIA": {
+      "train": 141,
+      "valid": 5,
+      "test": 5,
+      "tổng": 151
+    },
+    "PUERTO RICO": {
+      "train": 144,
+      "valid": 5,
+      "test": 5,
+      "tổng": 154
+    },
+    "RHODE ISLAND": {
+      "train": 157,
+      "valid": 5,
+      "test": 5,
+      "tổng": 167
+    },
+    "SOUTH CAROLINA": {
+      "train": 140,
+      "valid": 5,
+      "test": 5,
+      "tổng": 150
+    },
+    "SOUTH DAKOTA": {
+      "train": 133,
+      "valid": 5,
+      "test": 5,
+      "tổng": 143
+    },
+    "TENNESSEE": {
+      "train": 149,
+      "valid": 5,
+      "test": 5,
+      "tổng": 159
+    },
+    "TEXAS": {
+      "train": 155,
+      "valid": 5,
+      "test": 5,
+      "tổng": 165
+    },
+    "U S VIRGIN ISLANDS": {
+      "train": 146,
+      "valid": 5,
+      "test": 5,
+      "tổng": 156
+    },
+    "UTAH": {
+      "train": 158,
+      "valid": 5,
+      "test": 5,
+      "tổng": 168
+    },
+    "VERMONT": {
+      "train": 150,
+      "valid": 5,
+      "test": 5,
+      "tổng": 160
+    },
+    "VIRGINIA": {
+      "train": 143,
+      "valid": 5,
+      "test": 5,
+      "tổng": 153
+    },
+    "WASHINGTON": {
+      "train": 165,
+      "valid": 5,
+      "test": 5,
+      "tổng": 175
+    },
+    "WASHINGTON DC": {
+      "train": 147,
+      "valid": 5,
+      "test": 5,
+      "tổng": 157
+    },
+    "WEST VIRGINIA": {
+      "train": 140,
+      "valid": 5,
+      "test": 5,
+      "tổng": 150
+    },
+    "WISCONSIN": {
+      "train": 140,
+      "valid": 5,
+      "test": 5,
+      "tổng": 150
+    },
+    "WYOMING": {
+      "train": 151,
+      "valid": 5,
+      "test": 5,
+      "tổng": 161
+    }
+  },
+  "class_balance": {
+    "train": {
+      "ít nhất": 86.0,
+      "nhiều nhất": 175.0,
+      "trung bình": 145.7,
+      "trung vị": 146.0,
+      "độ lệch chuẩn": 12.62,
+      "tỉ lệ max/min": 2.035
+    },
+    "valid": {
+      "ít nhất": 5.0,
+      "nhiều nhất": 5.0,
+      "trung bình": 5.0,
+      "trung vị": 5.0,
+      "độ lệch chuẩn": 0.0,
+      "tỉ lệ max/min": 1.0
+    },
+    "test": {
+      "ít nhất": 5.0,
+      "nhiều nhất": 5.0,
+      "trung bình": 5.0,
+      "trung vị": 5.0,
+      "độ lệch chuẩn": 0.0,
+      "tỉ lệ max/min": 1.0
+    },
+    "tổng": {
+      "ít nhất": 96.0,
+      "nhiều nhất": 185.0,
+      "trung bình": 155.7,
+      "trung vị": 156.0,
+      "độ lệch chuẩn": 12.62,
+      "tỉ lệ max/min": 1.927
+    }
+  },
+  "n_distinct_sizes": 1,
+  "image_sizes": {
+    "224×128": 8721
+  },
+  "size_stats": {
+    "width": {
+      "count": 8721.0,
+      "mean": 224.0,
+      "std": 0.0,
+      "min": 224.0,
+      "25%": 224.0,
+      "50%": 224.0,
+      "75%": 224.0,
+      "max": 224.0
+    },
+    "height": {
+      "count": 8721.0,
+      "mean": 128.0,
+      "std": 0.0,
+      "min": 128.0,
+      "25%": 128.0,
+      "50%": 128.0,
+      "75%": 128.0,
+      "max": 128.0
+    },
+    "aspect": {
+      "count": 8721.0,
+      "mean": 1.75,
+      "std": 0.0,
+      "min": 1.75,
+      "25%": 1.75,
+      "50%": 1.75,
+      "75%": 1.75,
+      "max": 1.75
+    }
+  },
+  "image_modes": {
+    "RGB": 8721
+  },
+  "image_formats": {
+    "JPEG": 8721
+  },
+  "file_kb": {
+    "count": 8721.0,
+    "mean": 17.24,
+    "std": 2.29,
+    "min": 8.99,
+    "25%": 15.66,
+    "50%": 17.19,
+    "75%": 18.81,
+    "max": 27.13
+  },
+  "n_unreadable": 0,
+  "unreadable": [],
+  "mean": [
+    0.5495,
+    0.541,
+    0.506
+  ],
+  "std": [
+    0.292,
+    0.2734,
+    0.2845
+  ],
+  "pixel_share_at_0_pct": [
+    0.627,
+    0.331,
+    1.293
+  ],
+  "pixel_share_at_255_pct": [
+    1.083,
+    0.783,
+    0.986
+  ],
+  "pixel_share_above_240_pct": [
+    5.0,
+    3.69,
+    4.16
+  ],
+  "brightness_overall": {
+    "count": 8721.0,
+    "mean": 137.59,
+    "std": 31.73,
+    "min": 22.34,
+    "25%": 116.92,
+    "50%": 139.86,
+    "75%": 160.02,
+    "max": 235.56
+  },
+  "contrast_overall": {
+    "count": 8721.0,
+    "mean": 58.87,
+    "std": 12.89,
+    "min": 10.14,
+    "25%": 50.09,
+    "50%": 58.37,
+    "75%": 67.03,
+    "max": 115.05
+  },
+  "per_class_brightness": {
+    "DELAWARE": {
+      "mean": 95.01,
+      "median": 94.8,
+      "p10": 65.59,
+      "p90": 124.71
+    },
+    "MICHIGAN": {
+      "mean": 116.37,
+      "median": 111.47,
+      "p10": 82.8,
+      "p90": 156.3
+    },
+    "SOUTH CAROLINA": {
+      "mean": 120.27,
+      "median": 119.58,
+      "p10": 80.77,
+      "p90": 164.53
+    },
+    "PENNSYLVANIA": {
+      "mean": 122.24,
+      "median": 123.77,
+      "p10": 79.57,
+      "p90": 160.17
+    },
+    "VERMONT": {
+      "mean": 123.93,
+      "median": 123.45,
+      "p10": 88.97,
+      "p90": 158.61
+    },
+    "NEW YORK": {
+      "mean": 127.61,
+      "median": 129.23,
+      "p10": 90.33,
+      "p90": 164.92
+    },
+    "CONNECTICUT": {
+      "mean": 128.73,
+      "median": 130.19,
+      "p10": 94.23,
+      "p90": 166.17
+    },
+    "NEVADA": {
+      "mean": 129.31,
+      "median": 128.62,
+      "p10": 92.76,
+      "p90": 168.34
+    },
+    "WYOMING": {
+      "mean": 130.13,
+      "median": 131.88,
+      "p10": 94.59,
+      "p90": 163.12
+    },
+    "OREGON": {
+      "mean": 131.58,
+      "median": 128.8,
+      "p10": 97.3,
+      "p90": 165.36
+    },
+    "COLORADO": {
+      "mean": 132.62,
+      "median": 138.28,
+      "p10": 89.69,
+      "p90": 165.21
+    },
+    "IDAHO": {
+      "mean": 132.75,
+      "median": 135.25,
+      "p10": 85.63,
+      "p90": 173.01
+    },
+    "MARYLAND": {
+      "mean": 133.21,
+      "median": 136.95,
+      "p10": 95.99,
+      "p90": 163.37
+    },
+    "NORTH CAROLINA": {
+      "mean": 133.61,
+      "median": 134.96,
+      "p10": 95.33,
+      "p90": 168.74
+    },
+    "WEST VIRGINIA": {
+      "mean": 133.7,
+      "median": 138.58,
+      "p10": 84.85,
+      "p90": 180.48
+    },
+    "MAINE": {
+      "mean": 133.73,
+      "median": 133.75,
+      "p10": 104.13,
+      "p90": 163.06
+    },
+    "UTAH": {
+      "mean": 133.78,
+      "median": 136.27,
+      "p10": 95.69,
+      "p90": 165.22
+    },
+    "CALIFORNIA": {
+      "mean": 135.25,
+      "median": 140.72,
+      "p10": 73.1,
+      "p90": 181.87
+    },
+    "ARIZONA": {
+      "mean": 135.78,
+      "median": 133.69,
+      "p10": 96.46,
+      "p90": 174.41
+    },
+    "PUERTO RICO": {
+      "mean": 136.22,
+      "median": 136.02,
+      "p10": 92.82,
+      "p90": 178.41
+    },
+    "WASHINGTON DC": {
+      "mean": 136.48,
+      "median": 138.46,
+      "p10": 94.63,
+      "p90": 173.67
+    },
+    "CNMI": {
+      "mean": 137.52,
+      "median": 138.77,
+      "p10": 95.02,
+      "p90": 182.0
+    },
+    "NORTH DAKOTA": {
+      "mean": 138.03,
+      "median": 139.72,
+      "p10": 107.03,
+      "p90": 167.19
+    },
+    "NEW JERSEY": {
+      "mean": 138.33,
+      "median": 138.62,
+      "p10": 98.95,
+      "p90": 175.52
+    },
+    "ALABAMA": {
+      "mean": 138.76,
+      "median": 139.29,
+      "p10": 99.97,
+      "p90": 176.27
+    },
+    "U S VIRGIN ISLANDS": {
+      "mean": 139.47,
+      "median": 138.47,
+      "p10": 111.68,
+      "p90": 175.29
+    },
+    "INDIANA": {
+      "mean": 139.6,
+      "median": 141.22,
+      "p10": 96.44,
+      "p90": 179.57
+    },
+    "KENTUCKY": {
+      "mean": 139.69,
+      "median": 144.03,
+      "p10": 86.61,
+      "p90": 180.48
+    },
+    "AMERICAN SAMOA": {
+      "mean": 139.96,
+      "median": 142.12,
+      "p10": 104.56,
+      "p90": 171.15
+    },
+    "OHIO": {
+      "mean": 140.02,
+      "median": 142.24,
+      "p10": 95.89,
+      "p90": 184.86
+    },
+    "GEORGIA": {
+      "mean": 140.37,
+      "median": 139.83,
+      "p10": 95.01,
+      "p90": 180.42
+    },
+    "IOWA": {
+      "mean": 140.48,
+      "median": 145.39,
+      "p10": 97.74,
+      "p90": 172.89
+    },
+    "SOUTH DAKOTA": {
+      "mean": 140.61,
+      "median": 141.7,
+      "p10": 107.65,
+      "p90": 167.77
+    },
+    "MINNESOTA": {
+      "mean": 140.7,
+      "median": 143.0,
+      "p10": 116.21,
+      "p90": 165.27
+    },
+    "RHODE ISLAND": {
+      "mean": 140.99,
+      "median": 144.28,
+      "p10": 100.06,
+      "p90": 175.1
+    },
+    "MONTANA": {
+      "mean": 141.27,
+      "median": 144.19,
+      "p10": 93.41,
+      "p90": 180.01
+    },
+    "ALASKA": {
+      "mean": 141.3,
+      "median": 142.02,
+      "p10": 108.09,
+      "p90": 172.89
+    },
+    "TEXAS": {
+      "mean": 141.43,
+      "median": 142.59,
+      "p10": 95.7,
+      "p90": 184.53
+    },
+    "NEW MEXICO": {
+      "mean": 141.46,
+      "median": 145.43,
+      "p10": 99.39,
+      "p90": 176.83
+    },
+    "MISSOURI": {
+      "mean": 141.6,
+      "median": 141.32,
+      "p10": 107.7,
+      "p90": 170.37
+    },
+    "TENNESSEE": {
+      "mean": 141.69,
+      "median": 146.89,
+      "p10": 94.18,
+      "p90": 175.97
+    },
+    "FLORIDA": {
+      "mean": 142.53,
+      "median": 145.73,
+      "p10": 100.41,
+      "p90": 180.17
+    },
+    "ARKANSAS": {
+      "mean": 143.83,
+      "median": 150.87,
+      "p10": 96.72,
+      "p90": 176.27
+    },
+    "LOUISIANA": {
+      "mean": 144.2,
+      "median": 148.63,
+      "p10": 95.69,
+      "p90": 179.57
+    },
+    "OKLAHOMA": {
+      "mean": 145.12,
+      "median": 148.22,
+      "p10": 107.15,
+      "p90": 182.2
+    },
+    "WISCONSIN": {
+      "mean": 145.22,
+      "median": 149.92,
+      "p10": 94.89,
+      "p90": 182.86
+    },
+    "GUAM": {
+      "mean": 145.73,
+      "median": 150.08,
+      "p10": 109.97,
+      "p90": 178.17
+    },
+    "KANSAS": {
+      "mean": 145.83,
+      "median": 149.77,
+      "p10": 98.46,
+      "p90": 189.46
+    },
+    "NEW HAMPSHIRE": {
+      "mean": 146.29,
+      "median": 152.55,
+      "p10": 98.0,
+      "p90": 181.22
+    },
+    "HAWAI": {
+      "mean": 146.35,
+      "median": 152.48,
+      "p10": 101.74,
+      "p90": 180.14
+    },
+    "ILLINOIS": {
+      "mean": 146.35,
+      "median": 151.39,
+      "p10": 95.52,
+      "p90": 187.69
+    },
+    "WASHINGTON": {
+      "mean": 146.49,
+      "median": 149.94,
+      "p10": 118.89,
+      "p90": 178.07
+    },
+    "NEBRASKA": {
+      "mean": 146.78,
+      "median": 149.49,
+      "p10": 113.1,
+      "p90": 176.12
+    },
+    "MASSACHUSETTS": {
+      "mean": 148.69,
+      "median": 151.34,
+      "p10": 99.43,
+      "p90": 192.09
+    },
+    "MISSIPPI": {
+      "mean": 148.86,
+      "median": 148.97,
+      "p10": 112.81,
+      "p90": 185.15
+    },
+    "VIRGINIA": {
+      "mean": 149.85,
+      "median": 159.38,
+      "p10": 90.63,
+      "p90": 190.69
+    }
+  },
+  "per_class_contrast": {
+    "NEW MEXICO": {
+      "mean": 48.19,
+      "median": 47.12,
+      "p10": 36.17,
+      "p90": 59.62
+    },
+    "NORTH CAROLINA": {
+      "mean": 51.4,
+      "median": 51.24,
+      "p10": 38.66,
+      "p90": 64.28
+    },
+    "FLORIDA": {
+      "mean": 51.9,
+      "median": 51.68,
+      "p10": 36.39,
+      "p90": 66.94
+    },
+    "U S VIRGIN ISLANDS": {
+      "mean": 53.07,
+      "median": 52.06,
+      "p10": 38.12,
+      "p90": 70.46
+    },
+    "MASSACHUSETTS": {
+      "mean": 53.31,
+      "median": 52.78,
+      "p10": 40.9,
+      "p90": 66.58
+    },
+    "OKLAHOMA": {
+      "mean": 53.48,
+      "median": 52.41,
+      "p10": 38.68,
+      "p90": 70.31
+    },
+    "AMERICAN SAMOA": {
+      "mean": 54.63,
+      "median": 54.83,
+      "p10": 43.43,
+      "p90": 68.05
+    },
+    "MISSIPPI": {
+      "mean": 55.11,
+      "median": 55.73,
+      "p10": 41.44,
+      "p90": 67.88
+    },
+    "WASHINGTON DC": {
+      "mean": 55.31,
+      "median": 54.47,
+      "p10": 41.78,
+      "p90": 69.09
+    },
+    "NEBRASKA": {
+      "mean": 55.49,
+      "median": 54.13,
+      "p10": 41.17,
+      "p90": 70.77
+    },
+    "RHODE ISLAND": {
+      "mean": 55.54,
+      "median": 54.69,
+      "p10": 40.0,
+      "p90": 74.12
+    },
+    "MAINE": {
+      "mean": 55.7,
+      "median": 55.7,
+      "p10": 43.08,
+      "p90": 68.28
+    },
+    "ALASKA": {
+      "mean": 56.55,
+      "median": 55.11,
+      "p10": 40.93,
+      "p90": 74.23
+    },
+    "NEW JERSEY": {
+      "mean": 56.58,
+      "median": 55.92,
+      "p10": 37.13,
+      "p90": 80.77
+    },
+    "OHIO": {
+      "mean": 56.69,
+      "median": 57.04,
+      "p10": 40.1,
+      "p90": 74.25
+    },
+    "IOWA": {
+      "mean": 56.76,
+      "median": 57.88,
+      "p10": 43.9,
+      "p90": 68.53
+    },
+    "MINNESOTA": {
+      "mean": 56.86,
+      "median": 56.19,
+      "p10": 42.54,
+      "p90": 72.89
+    },
+    "GUAM": {
+      "mean": 57.16,
+      "median": 55.86,
+      "p10": 44.47,
+      "p90": 71.84
+    },
+    "INDIANA": {
+      "mean": 57.56,
+      "median": 54.75,
+      "p10": 42.5,
+      "p90": 74.31
+    },
+    "SOUTH CAROLINA": {
+      "mean": 57.63,
+      "median": 57.99,
+      "p10": 43.47,
+      "p90": 72.23
+    },
+    "NEW YORK": {
+      "mean": 57.83,
+      "median": 55.89,
+      "p10": 41.39,
+      "p90": 78.72
+    },
+    "OREGON": {
+      "mean": 57.87,
+      "median": 55.86,
+      "p10": 43.51,
+      "p90": 76.97
+    },
+    "ILLINOIS": {
+      "mean": 57.89,
+      "median": 56.44,
+      "p10": 43.53,
+      "p90": 72.14
+    },
+    "CNMI": {
+      "mean": 58.13,
+      "median": 57.5,
+      "p10": 43.69,
+      "p90": 73.75
+    },
+    "UTAH": {
+      "mean": 58.28,
+      "median": 58.96,
+      "p10": 46.01,
+      "p90": 69.18
+    },
+    "MARYLAND": {
+      "mean": 58.71,
+      "median": 58.44,
+      "p10": 43.58,
+      "p90": 73.33
+    },
+    "VERMONT": {
+      "mean": 58.91,
+      "median": 57.88,
+      "p10": 45.69,
+      "p90": 71.66
+    },
+    "MICHIGAN": {
+      "mean": 58.99,
+      "median": 57.14,
+      "p10": 44.56,
+      "p90": 76.97
+    },
+    "CALIFORNIA": {
+      "mean": 59.12,
+      "median": 60.18,
+      "p10": 41.23,
+      "p90": 74.52
+    },
+    "SOUTH DAKOTA": {
+      "mean": 59.34,
+      "median": 58.88,
+      "p10": 43.62,
+      "p90": 76.06
+    },
+    "WEST VIRGINIA": {
+      "mean": 59.43,
+      "median": 60.17,
+      "p10": 41.62,
+      "p90": 75.46
+    },
+    "NEW HAMPSHIRE": {
+      "mean": 59.68,
+      "median": 57.44,
+      "p10": 45.81,
+      "p90": 77.1
+    },
+    "MISSOURI": {
+      "mean": 59.69,
+      "median": 58.86,
+      "p10": 50.16,
+      "p90": 70.71
+    },
+    "WASHINGTON": {
+      "mean": 59.71,
+      "median": 60.02,
+      "p10": 47.22,
+      "p90": 72.12
+    },
+    "NORTH DAKOTA": {
+      "mean": 59.94,
+      "median": 59.79,
+      "p10": 46.65,
+      "p90": 72.07
+    },
+    "MONTANA": {
+      "mean": 59.95,
+      "median": 59.27,
+      "p10": 46.1,
+      "p90": 75.53
+    },
+    "KANSAS": {
+      "mean": 60.57,
+      "median": 59.21,
+      "p10": 45.79,
+      "p90": 76.76
+    },
+    "NEVADA": {
+      "mean": 60.87,
+      "median": 58.53,
+      "p10": 47.13,
+      "p90": 78.15
+    },
+    "PENNSYLVANIA": {
+      "mean": 60.92,
+      "median": 59.34,
+      "p10": 43.24,
+      "p90": 78.73
+    },
+    "VIRGINIA": {
+      "mean": 60.95,
+      "median": 60.16,
+      "p10": 47.86,
+      "p90": 75.1
+    },
+    "IDAHO": {
+      "mean": 60.99,
+      "median": 61.81,
+      "p10": 40.4,
+      "p90": 79.58
+    },
+    "KENTUCKY": {
+      "mean": 61.15,
+      "median": 61.18,
+      "p10": 47.83,
+      "p90": 74.48
+    },
+    "LOUISIANA": {
+      "mean": 61.24,
+      "median": 61.2,
+      "p10": 44.46,
+      "p90": 75.69
+    },
+    "WISCONSIN": {
+      "mean": 61.34,
+      "median": 61.48,
+      "p10": 44.86,
+      "p90": 75.8
+    },
+    "WYOMING": {
+      "mean": 61.36,
+      "median": 61.02,
+      "p10": 47.07,
+      "p90": 75.4
+    },
+    "TENNESSEE": {
+      "mean": 61.37,
+      "median": 61.52,
+      "p10": 46.69,
+      "p90": 75.91
+    },
+    "PUERTO RICO": {
+      "mean": 61.9,
+      "median": 62.71,
+      "p10": 42.81,
+      "p90": 78.27
+    },
+    "ALABAMA": {
+      "mean": 61.9,
+      "median": 60.67,
+      "p10": 47.61,
+      "p90": 77.99
+    },
+    "GEORGIA": {
+      "mean": 62.01,
+      "median": 63.28,
+      "p10": 42.43,
+      "p90": 78.83
+    },
+    "DELAWARE": {
+      "mean": 62.02,
+      "median": 61.35,
+      "p10": 44.6,
+      "p90": 80.39
+    },
+    "CONNECTICUT": {
+      "mean": 63.15,
+      "median": 64.09,
+      "p10": 47.38,
+      "p90": 75.74
+    },
+    "HAWAI": {
+      "mean": 63.69,
+      "median": 64.02,
+      "p10": 47.07,
+      "p90": 77.59
+    },
+    "ARKANSAS": {
+      "mean": 63.99,
+      "median": 63.46,
+      "p10": 49.06,
+      "p90": 80.11
+    },
+    "ARIZONA": {
+      "mean": 64.08,
+      "median": 64.86,
+      "p10": 44.74,
+      "p90": 80.75
+    },
+    "COLORADO": {
+      "mean": 68.65,
+      "median": 69.48,
+      "p10": 53.66,
+      "p90": 87.45
+    },
+    "TEXAS": {
+      "mean": 71.38,
+      "median": 70.49,
+      "p10": 48.49,
+      "p90": 96.63
+    }
+  },
+  "per_class_mean_rgb": {
+    "ALABAMA": {
+      "mean_r": 141.5,
+      "mean_g": 139.1,
+      "mean_b": 129.7
+    },
+    "ALASKA": {
+      "mean_r": 153.0,
+      "mean_g": 142.0,
+      "mean_b": 107.0
+    },
+    "AMERICAN SAMOA": {
+      "mean_r": 131.9,
+      "mean_g": 143.8,
+      "mean_b": 141.1
+    },
+    "ARIZONA": {
+      "mean_r": 143.5,
+      "mean_g": 133.4,
+      "mean_b": 127.9
+    },
+    "ARKANSAS": {
+      "mean_r": 151.8,
+      "mean_g": 140.7,
+      "mean_b": 138.8
+    },
+    "CALIFORNIA": {
+      "mean_r": 137.3,
+      "mean_g": 135.2,
+      "mean_b": 130.2
+    },
+    "CNMI": {
+      "mean_r": 133.8,
+      "mean_g": 139.2,
+      "mean_b": 138.7
+    },
+    "COLORADO": {
+      "mean_r": 129.1,
+      "mean_g": 135.3,
+      "mean_b": 127.8
+    },
+    "CONNECTICUT": {
+      "mean_r": 114.8,
+      "mean_g": 131.8,
+      "mean_b": 149.6
+    },
+    "DELAWARE": {
+      "mean_r": 93.9,
+      "mean_g": 95.9,
+      "mean_b": 93.4
+    },
+    "FLORIDA": {
+      "mean_r": 150.2,
+      "mean_g": 142.1,
+      "mean_b": 124.6
+    },
+    "GEORGIA": {
+      "mean_r": 145.8,
+      "mean_g": 139.6,
+      "mean_b": 130.0
+    },
+    "GUAM": {
+      "mean_r": 150.0,
+      "mean_g": 146.4,
+      "mean_b": 131.2
+    },
+    "HAWAI": {
+      "mean_r": 154.0,
+      "mean_g": 145.8,
+      "mean_b": 129.1
+    },
+    "IDAHO": {
+      "mean_r": 136.3,
+      "mean_g": 132.0,
+      "mean_b": 127.6
+    },
+    "ILLINOIS": {
+      "mean_r": 151.4,
+      "mean_g": 145.1,
+      "mean_b": 139.6
+    },
+    "INDIANA": {
+      "mean_r": 147.4,
+      "mean_g": 138.5,
+      "mean_b": 124.9
+    },
+    "IOWA": {
+      "mean_r": 141.0,
+      "mean_g": 141.5,
+      "mean_b": 133.7
+    },
+    "KANSAS": {
+      "mean_r": 147.4,
+      "mean_g": 145.7,
+      "mean_b": 142.7
+    },
+    "KENTUCKY": {
+      "mean_r": 133.5,
+      "mean_g": 141.0,
+      "mean_b": 149.1
+    },
+    "LOUISIANA": {
+      "mean_r": 148.9,
+      "mean_g": 143.0,
+      "mean_b": 138.0
+    },
+    "MAINE": {
+      "mean_r": 145.1,
+      "mean_g": 133.6,
+      "mean_b": 104.6
+    },
+    "MARYLAND": {
+      "mean_r": 139.2,
+      "mean_g": 132.1,
+      "mean_b": 123.3
+    },
+    "MASSACHUSETTS": {
+      "mean_r": 155.6,
+      "mean_g": 145.9,
+      "mean_b": 145.2
+    },
+    "MICHIGAN": {
+      "mean_r": 118.2,
+      "mean_g": 117.3,
+      "mean_b": 106.7
+    },
+    "MINNESOTA": {
+      "mean_r": 134.7,
+      "mean_g": 143.0,
+      "mean_b": 144.6
+    },
+    "MISSIPPI": {
+      "mean_r": 149.0,
+      "mean_g": 149.7,
+      "mean_b": 143.9
+    },
+    "MISSOURI": {
+      "mean_r": 138.7,
+      "mean_g": 142.4,
+      "mean_b": 145.1
+    },
+    "MONTANA": {
+      "mean_r": 142.8,
+      "mean_g": 140.1,
+      "mean_b": 143.2
+    },
+    "NEBRASKA": {
+      "mean_r": 155.1,
+      "mean_g": 145.3,
+      "mean_b": 132.3
+    },
+    "NEVADA": {
+      "mean_r": 123.1,
+      "mean_g": 130.8,
+      "mean_b": 138.3
+    },
+    "NEW HAMPSHIRE": {
+      "mean_r": 136.2,
+      "mean_g": 151.4,
+      "mean_b": 146.4
+    },
+    "NEW JERSEY": {
+      "mean_r": 138.4,
+      "mean_g": 141.4,
+      "mean_b": 122.6
+    },
+    "NEW MEXICO": {
+      "mean_r": 163.5,
+      "mean_g": 142.0,
+      "mean_b": 80.8
+    },
+    "NEW YORK": {
+      "mean_r": 141.7,
+      "mean_g": 125.7,
+      "mean_b": 100.4
+    },
+    "NORTH CAROLINA": {
+      "mean_r": 143.2,
+      "mean_g": 131.7,
+      "mean_b": 118.2
+    },
+    "NORTH DAKOTA": {
+      "mean_r": 137.2,
+      "mean_g": 139.7,
+      "mean_b": 131.5
+    },
+    "OHIO": {
+      "mean_r": 148.7,
+      "mean_g": 137.6,
+      "mean_b": 129.8
+    },
+    "OKLAHOMA": {
+      "mean_r": 151.4,
+      "mean_g": 144.3,
+      "mean_b": 132.6
+    },
+    "OREGON": {
+      "mean_r": 134.8,
+      "mean_g": 133.5,
+      "mean_b": 113.6
+    },
+    "PENNSYLVANIA": {
+      "mean_r": 132.2,
+      "mean_g": 122.2,
+      "mean_b": 96.2
+    },
+    "PUERTO RICO": {
+      "mean_r": 138.7,
+      "mean_g": 136.6,
+      "mean_b": 127.9
+    },
+    "RHODE ISLAND": {
+      "mean_r": 141.1,
+      "mean_g": 141.3,
+      "mean_b": 139.4
+    },
+    "SOUTH CAROLINA": {
+      "mean_r": 119.0,
+      "mean_g": 121.2,
+      "mean_b": 119.2
+    },
+    "SOUTH DAKOTA": {
+      "mean_r": 143.3,
+      "mean_g": 139.4,
+      "mean_b": 139.7
+    },
+    "TENNESSEE": {
+      "mean_r": 146.5,
+      "mean_g": 140.9,
+      "mean_b": 133.1
+    },
+    "TEXAS": {
+      "mean_r": 144.6,
+      "mean_g": 140.4,
+      "mean_b": 138.5
+    },
+    "U S VIRGIN ISLANDS": {
+      "mean_r": 135.0,
+      "mean_g": 142.9,
+      "mean_b": 133.6
+    },
+    "UTAH": {
+      "mean_r": 141.6,
+      "mean_g": 131.1,
+      "mean_b": 127.0
+    },
+    "VERMONT": {
+      "mean_r": 102.0,
+      "mean_g": 135.4,
+      "mean_b": 122.4
+    },
+    "VIRGINIA": {
+      "mean_r": 149.1,
+      "mean_g": 150.0,
+      "mean_b": 150.9
+    },
+    "WASHINGTON": {
+      "mean_r": 144.4,
+      "mean_g": 147.7,
+      "mean_b": 145.9
+    },
+    "WASHINGTON DC": {
+      "mean_r": 144.6,
+      "mean_g": 135.7,
+      "mean_b": 119.1
+    },
+    "WEST VIRGINIA": {
+      "mean_r": 138.5,
+      "mean_g": 134.4,
+      "mean_b": 117.5
+    },
+    "WISCONSIN": {
+      "mean_r": 150.8,
+      "mean_g": 145.5,
+      "mean_b": 129.5
+    },
+    "WYOMING": {
+      "mean_r": 134.3,
+      "mean_g": 130.6,
+      "mean_b": 116.5
+    }
+  },
+  "center_minus_border_gray": {
+    "ALABAMA": -10.88,
+    "ALASKA": -7.23,
+    "AMERICAN SAMOA": -4.27,
+    "ARIZONA": -0.92,
+    "ARKANSAS": -6.45,
+    "CALIFORNIA": -2.7,
+    "CNMI": -6.61,
+    "COLORADO": 8.42,
+    "CONNECTICUT": -0.41,
+    "DELAWARE": 9.23,
+    "FLORIDA": -9.45,
+    "GEORGIA": -11.97,
+    "GUAM": -11.69,
+    "HAWAI": -6.11,
+    "IDAHO": 8.95,
+    "ILLINOIS": -5.61,
+    "INDIANA": -1.01,
+    "IOWA": -8.89,
+    "KANSAS": 0.57,
+    "KENTUCKY": 0.0,
+    "LOUISIANA": -2.82,
+    "MAINE": -3.85,
+    "MARYLAND": -1.94,
+    "MASSACHUSETTS": 1.03,
+    "MICHIGAN": 1.28,
+    "MINNESOTA": -1.15,
+    "MISSIPPI": -2.66,
+    "MISSOURI": -5.6,
+    "MONTANA": -7.18,
+    "NEBRASKA": -5.31,
+    "NEVADA": -5.31,
+    "NEW HAMPSHIRE": -3.51,
+    "NEW JERSEY": -5.15,
+    "NEW MEXICO": -2.33,
+    "NEW YORK": 6.38,
+    "NORTH CAROLINA": 1.35,
+    "NORTH DAKOTA": -5.42,
+    "OHIO": 0.96,
+    "OKLAHOMA": -3.33,
+    "OREGON": -5.64,
+    "PENNSYLVANIA": 6.88,
+    "PUERTO RICO": -6.4,
+    "RHODE ISLAND": -2.04,
+    "SOUTH CAROLINA": -2.92,
+    "SOUTH DAKOTA": -2.21,
+    "TENNESSEE": -4.97,
+    "TEXAS": -9.8,
+    "U S VIRGIN ISLANDS": -4.65,
+    "UTAH": -4.43,
+    "VERMONT": 2.07,
+    "VIRGINIA": -4.15,
+    "WASHINGTON": -2.3,
+    "WASHINGTON DC": 1.03,
+    "WEST VIRGINIA": 2.14,
+    "WISCONSIN": -3.54,
+    "WYOMING": -12.98
+  },
+  "mean_image_gray_std": {
+    "ALABAMA": 12.98,
+    "ALASKA": 9.39,
+    "AMERICAN SAMOA": 13.35,
+    "ARIZONA": 10.46,
+    "ARKANSAS": 14.59,
+    "CALIFORNIA": 9.25,
+    "CNMI": 9.96,
+    "COLORADO": 13.26,
+    "CONNECTICUT": 11.23,
+    "DELAWARE": 17.39,
+    "FLORIDA": 11.04,
+    "GEORGIA": 12.56,
+    "GUAM": 12.28,
+    "HAWAI": 15.31,
+    "IDAHO": 12.78,
+    "ILLINOIS": 8.79,
+    "INDIANA": 9.12,
+    "IOWA": 14.13,
+    "KANSAS": 10.63,
+    "KENTUCKY": 13.85,
+    "LOUISIANA": 15.86,
+    "MAINE": 8.96,
+    "MARYLAND": 13.18,
+    "MASSACHUSETTS": 9.4,
+    "MICHIGAN": 9.9,
+    "MINNESOTA": 16.32,
+    "MISSIPPI": 13.14,
+    "MISSOURI": 17.39,
+    "MONTANA": 7.84,
+    "NEBRASKA": 11.18,
+    "NEVADA": 14.44,
+    "NEW HAMPSHIRE": 9.82,
+    "NEW JERSEY": 11.11,
+    "NEW MEXICO": 7.69,
+    "NEW YORK": 10.89,
+    "NORTH CAROLINA": 9.84,
+    "NORTH DAKOTA": 13.54,
+    "OHIO": 8.08,
+    "OKLAHOMA": 11.08,
+    "OREGON": 8.28,
+    "PENNSYLVANIA": 11.35,
+    "PUERTO RICO": 14.11,
+    "RHODE ISLAND": 9.75,
+    "SOUTH CAROLINA": 9.26,
+    "SOUTH DAKOTA": 9.78,
+    "TENNESSEE": 12.75,
+    "TEXAS": 12.45,
+    "U S VIRGIN ISLANDS": 9.63,
+    "UTAH": 15.87,
+    "VERMONT": 12.15,
+    "VIRGINIA": 10.7,
+    "WASHINGTON": 14.4,
+    "WASHINGTON DC": 8.34,
+    "WEST VIRGINIA": 13.27,
+    "WISCONSIN": 10.37,
+    "WYOMING": 14.97
+  },
+  "sharpness_overall": {
+    "count": 8721.0,
+    "mean": 4047.53,
+    "std": 2618.71,
+    "min": 143.66,
+    "25%": 2190.07,
+    "50%": 3466.84,
+    "75%": 5236.27,
+    "max": 30375.22
+  },
+  "per_class_sharpness": {
+    "RHODE ISLAND": {
+      "mean": 2596.5,
+      "median": 1902.93,
+      "p10": 715.54,
+      "p90": 5358.44
+    },
+    "NEW JERSEY": {
+      "mean": 2893.61,
+      "median": 2220.18,
+      "p10": 830.18,
+      "p90": 6029.94
+    },
+    "MAINE": {
+      "mean": 2689.65,
+      "median": 2273.18,
+      "p10": 899.17,
+      "p90": 4879.42
+    },
+    "NEBRASKA": {
+      "mean": 2904.54,
+      "median": 2466.03,
+      "p10": 1213.7,
+      "p90": 4949.98
+    },
+    "MASSACHUSETTS": {
+      "mean": 2933.36,
+      "median": 2633.27,
+      "p10": 1223.26,
+      "p90": 4712.32
+    },
+    "NEW MEXICO": {
+      "mean": 3035.8,
+      "median": 2682.59,
+      "p10": 1123.51,
+      "p90": 5744.71
+    },
+    "OHIO": {
+      "mean": 3660.09,
+      "median": 2770.24,
+      "p10": 1088.3,
+      "p90": 7735.1
+    },
+    "IOWA": {
+      "mean": 3174.11,
+      "median": 2776.53,
+      "p10": 1328.96,
+      "p90": 5178.37
+    },
+    "VERMONT": {
+      "mean": 3270.42,
+      "median": 2828.93,
+      "p10": 1087.82,
+      "p90": 6057.81
+    },
+    "MINNESOTA": {
+      "mean": 3112.01,
+      "median": 2838.8,
+      "p10": 1341.1,
+      "p90": 4960.6
+    },
+    "MISSOURI": {
+      "mean": 3302.33,
+      "median": 2884.98,
+      "p10": 1624.67,
+      "p90": 5635.31
+    },
+    "UTAH": {
+      "mean": 3258.19,
+      "median": 2924.12,
+      "p10": 1077.31,
+      "p90": 5690.5
+    },
+    "ALASKA": {
+      "mean": 3464.46,
+      "median": 2970.8,
+      "p10": 1121.29,
+      "p90": 6703.74
+    },
+    "MARYLAND": {
+      "mean": 3371.98,
+      "median": 2974.27,
+      "p10": 1652.53,
+      "p90": 5654.29
+    },
+    "WEST VIRGINIA": {
+      "mean": 4053.02,
+      "median": 3108.01,
+      "p10": 1219.9,
+      "p90": 8251.5
+    },
+    "OKLAHOMA": {
+      "mean": 3641.01,
+      "median": 3122.26,
+      "p10": 1167.91,
+      "p90": 7178.64
+    },
+    "DELAWARE": {
+      "mean": 3474.6,
+      "median": 3157.52,
+      "p10": 1310.89,
+      "p90": 5642.34
+    },
+    "INDIANA": {
+      "mean": 3822.31,
+      "median": 3174.8,
+      "p10": 1461.13,
+      "p90": 7069.76
+    },
+    "NEW YORK": {
+      "mean": 3916.27,
+      "median": 3203.91,
+      "p10": 1190.93,
+      "p90": 7807.27
+    },
+    "NORTH CAROLINA": {
+      "mean": 3643.88,
+      "median": 3204.34,
+      "p10": 1300.61,
+      "p90": 6497.12
+    },
+    "CALIFORNIA": {
+      "mean": 3674.33,
+      "median": 3283.36,
+      "p10": 1211.33,
+      "p90": 6694.02
+    },
+    "FLORIDA": {
+      "mean": 3750.19,
+      "median": 3309.7,
+      "p10": 1226.44,
+      "p90": 6512.34
+    },
+    "WYOMING": {
+      "mean": 3756.88,
+      "median": 3344.4,
+      "p10": 1635.76,
+      "p90": 6229.64
+    },
+    "PENNSYLVANIA": {
+      "mean": 4161.31,
+      "median": 3467.83,
+      "p10": 1548.84,
+      "p90": 8116.9
+    },
+    "VIRGINIA": {
+      "mean": 3978.9,
+      "median": 3480.06,
+      "p10": 1202.92,
+      "p90": 6957.94
+    },
+    "ILLINOIS": {
+      "mean": 4144.19,
+      "median": 3501.72,
+      "p10": 1311.29,
+      "p90": 7125.63
+    },
+    "WISCONSIN": {
+      "mean": 4405.75,
+      "median": 3544.69,
+      "p10": 1443.87,
+      "p90": 8023.73
+    },
+    "OREGON": {
+      "mean": 3966.57,
+      "median": 3565.7,
+      "p10": 1374.28,
+      "p90": 7720.7
+    },
+    "AMERICAN SAMOA": {
+      "mean": 4156.34,
+      "median": 3674.12,
+      "p10": 1568.23,
+      "p90": 7149.09
+    },
+    "HAWAI": {
+      "mean": 4027.33,
+      "median": 3684.48,
+      "p10": 1563.69,
+      "p90": 6870.26
+    },
+    "CONNECTICUT": {
+      "mean": 4180.88,
+      "median": 3700.21,
+      "p10": 1276.08,
+      "p90": 7296.29
+    },
+    "MISSIPPI": {
+      "mean": 4386.21,
+      "median": 3706.61,
+      "p10": 1587.43,
+      "p90": 8316.59
+    },
+    "KANSAS": {
+      "mean": 4214.91,
+      "median": 3716.61,
+      "p10": 1731.87,
+      "p90": 7442.93
+    },
+    "WASHINGTON": {
+      "mean": 3946.76,
+      "median": 3753.81,
+      "p10": 1571.82,
+      "p90": 6767.78
+    },
+    "KENTUCKY": {
+      "mean": 4139.89,
+      "median": 3764.98,
+      "p10": 1665.45,
+      "p90": 7471.4
+    },
+    "SOUTH CAROLINA": {
+      "mean": 4195.01,
+      "median": 3815.53,
+      "p10": 1420.08,
+      "p90": 7383.74
+    },
+    "GUAM": {
+      "mean": 4744.22,
+      "median": 3816.99,
+      "p10": 1824.28,
+      "p90": 8914.47
+    },
+    "ARKANSAS": {
+      "mean": 4355.75,
+      "median": 3824.87,
+      "p10": 1818.89,
+      "p90": 7529.41
+    },
+    "U S VIRGIN ISLANDS": {
+      "mean": 4685.72,
+      "median": 3849.41,
+      "p10": 1609.86,
+      "p90": 8998.92
+    },
+    "IDAHO": {
+      "mean": 4552.57,
+      "median": 3885.38,
+      "p10": 1771.32,
+      "p90": 9198.67
+    },
+    "NEW HAMPSHIRE": {
+      "mean": 4318.54,
+      "median": 3905.65,
+      "p10": 1526.59,
+      "p90": 7617.48
+    },
+    "LOUISIANA": {
+      "mean": 4768.51,
+      "median": 3907.3,
+      "p10": 1752.42,
+      "p90": 8977.71
+    },
+    "NEVADA": {
+      "mean": 4680.27,
+      "median": 3927.75,
+      "p10": 1767.75,
+      "p90": 8044.38
+    },
+    "WASHINGTON DC": {
+      "mean": 4525.24,
+      "median": 3970.5,
+      "p10": 1805.39,
+      "p90": 7636.13
+    },
+    "MONTANA": {
+      "mean": 4773.53,
+      "median": 3977.3,
+      "p10": 2116.8,
+      "p90": 9205.94
+    },
+    "NORTH DAKOTA": {
+      "mean": 4621.45,
+      "median": 4085.82,
+      "p10": 1845.33,
+      "p90": 7705.95
+    },
+    "TENNESSEE": {
+      "mean": 4663.81,
+      "median": 4193.69,
+      "p10": 1635.08,
+      "p90": 8268.55
+    },
+    "ARIZONA": {
+      "mean": 4809.61,
+      "median": 4298.21,
+      "p10": 1634.0,
+      "p90": 8137.02
+    },
+    "MICHIGAN": {
+      "mean": 4638.98,
+      "median": 4311.99,
+      "p10": 2001.67,
+      "p90": 8160.08
+    },
+    "SOUTH DAKOTA": {
+      "mean": 4681.36,
+      "median": 4370.53,
+      "p10": 1553.1,
+      "p90": 8029.06
+    },
+    "ALABAMA": {
+      "mean": 5012.09,
+      "median": 4418.7,
+      "p10": 2046.15,
+      "p90": 9063.19
+    },
+    "CNMI": {
+      "mean": 4740.76,
+      "median": 4522.67,
+      "p10": 1742.63,
+      "p90": 7854.09
+    },
+    "PUERTO RICO": {
+      "mean": 4906.86,
+      "median": 4667.92,
+      "p10": 1153.49,
+      "p90": 8964.54
+    },
+    "COLORADO": {
+      "mean": 5316.08,
+      "median": 4679.03,
+      "p10": 2121.92,
+      "p90": 8934.5
+    },
+    "TEXAS": {
+      "mean": 5335.46,
+      "median": 4887.32,
+      "p10": 1931.49,
+      "p90": 8973.86
+    },
+    "GEORGIA": {
+      "mean": 5879.06,
+      "median": 5068.55,
+      "p10": 1961.82,
+      "p90": 9995.7
+    }
+  },
+  "n_blur_outliers_z_lt_-3": 47,
+  "blur_outliers_by_class": {
+    "CONNECTICUT": 3,
+    "ALABAMA": 2,
+    "ARKANSAS": 2,
+    "CNMI": 2,
+    "COLORADO": 2,
+    "DELAWARE": 2,
+    "HAWAI": 2,
+    "IOWA": 2,
+    "MICHIGAN": 2,
+    "MONTANA": 2,
+    "NEVADA": 2,
+    "NEW YORK": 2,
+    "PENNSYLVANIA": 2,
+    "PUERTO RICO": 2,
+    "WASHINGTON": 2
+  },
+  "blur_outlier_files": [
+    "train\\NEVADA\\101.jpg",
+    "train\\MONTANA\\037.jpg",
+    "train\\NEW HAMPSHIRE\\006.jpg",
+    "train\\ALABAMA\\104.jpg",
+    "valid\\NEVADA\\5.jpg",
+    "train\\PENNSYLVANIA\\133.jpg",
+    "train\\ALABAMA\\060.jpg",
+    "train\\HAWAI\\035.jpg",
+    "train\\MONTANA\\140.jpg",
+    "train\\MICHIGAN\\148.jpg",
+    "train\\NORTH DAKOTA\\042.jpg",
+    "train\\IOWA\\128.jpg",
+    "train\\WYOMING\\135.jpg",
+    "train\\MASSACHUSETTS\\124.jpg",
+    "train\\ARKANSAS\\118.jpg",
+    "train\\CONNECTICUT\\141.jpg",
+    "train\\IDAHO\\098.jpg",
+    "train\\VERMONT\\033.jpg",
+    "train\\IOWA\\136.jpg",
+    "train\\NEW YORK\\131.jpg",
+    "train\\MARYLAND\\074.jpg",
+    "train\\MICHIGAN\\117.jpg",
+    "train\\COLORADO\\127.jpg",
+    "train\\PUERTO RICO\\117.jpg",
+    "train\\ARKANSAS\\152.jpg",
+    "train\\OREGON\\094.jpg",
+    "train\\DELAWARE\\102.jpg",
+    "train\\PENNSYLVANIA\\105.jpg",
+    "train\\RHODE ISLAND\\156.jpg",
+    "train\\COLORADO\\105.jpg"
+  ],
+  "n_near_uniform_contrast_lt_5": 0,
+  "near_uniform_files": [],
+  "least_sharp_files": [
+    "train\\RHODE ISLAND\\156.jpg",
+    "train\\NEVADA\\101.jpg",
+    "train\\RHODE ISLAND\\148.jpg",
+    "train\\NEW YORK\\131.jpg",
+    "train\\VERMONT\\033.jpg",
+    "train\\MONTANA\\037.jpg",
+    "train\\CONNECTICUT\\141.jpg",
+    "valid\\NEVADA\\5.jpg",
+    "train\\PENNSYLVANIA\\133.jpg",
+    "train\\NEW HAMPSHIRE\\006.jpg",
+    "train\\OHIO\\149.jpg",
+    "train\\MASSACHUSETTS\\124.jpg"
+  ],
+  "lowest_contrast_files": [
+    "train\\NEVADA\\101.jpg",
+    "train\\MONTANA\\037.jpg",
+    "train\\VERMONT\\033.jpg",
+    "train\\HAWAI\\076.jpg",
+    "train\\OKLAHOMA\\037.jpg",
+    "train\\HAWAI\\035.jpg",
+    "train\\SOUTH DAKOTA\\090.jpg",
+    "train\\PENNSYLVANIA\\036.jpg",
+    "train\\IDAHO\\098.jpg",
+    "train\\MASSACHUSETTS\\124.jpg",
+    "train\\DELAWARE\\102.jpg",
+    "train\\IOWA\\128.jpg"
+  ],
+  "darkest_files": [
+    "train\\PENNSYLVANIA\\031.jpg",
+    "train\\CALIFORNIA\\078.jpg",
+    "train\\WASHINGTON DC\\067.jpg",
+    "train\\WEST VIRGINIA\\103.jpg",
+    "test\\INDIANA\\4.jpg",
+    "train\\DELAWARE\\074.jpg",
+    "train\\UTAH\\086.jpg",
+    "train\\ILLINOIS\\115.jpg",
+    "train\\CALIFORNIA\\139.jpg",
+    "valid\\COLORADO\\5.jpg",
+    "train\\DELAWARE\\044.jpg",
+    "train\\WEST VIRGINIA\\121.jpg"
+  ],
+  "brightest_files": [
+    "train\\MONTANA\\037.jpg",
+    "train\\VERMONT\\033.jpg",
+    "train\\KENTUCKY\\075.jpg",
+    "train\\NEVADA\\101.jpg",
+    "train\\FLORIDA\\096.jpg",
+    "train\\VIRGINIA\\045.jpg",
+    "train\\OHIO\\142.jpg",
+    "train\\MONTANA\\017.jpg",
+    "test\\AMERICAN SAMOA\\4.jpg",
+    "train\\VIRGINIA\\097.jpg",
+    "train\\CALIFORNIA\\145.jpg",
+    "train\\WISCONSIN\\050.jpg"
+  ],
+  "duplicates": {
+    "exact_md5_groups": 1,
+    "exact_md5_cross_split_groups": 1,
+    "candidate_pairs_same_label": 789,
+    "candidate_pairs_cross_label": 126,
+    "pairs_duplicate": 66,
+    "pairs_duplicate_cross_split": 11,
+    "pairs_uncertain": 79,
+    "pairs_uncertain_cross_split": 12,
+    "pairs_manual_different": 3,
+    "redundant_images": 65,
+    "redundant_by_split": {
+      "train": 53,
+      "test": 7,
+      "valid": 5
+    },
+    "redundant_by_label": {
+      "HAWAI": 5,
+      "AMERICAN SAMOA": 3,
+      "MISSOURI": 3,
+      "OHIO": 3,
+      "SOUTH DAKOTA": 3,
+      "WISCONSIN": 3,
+      "ALABAMA": 2,
+      "CALIFORNIA": 2,
+      "CONNECTICUT": 2,
+      "GEORGIA": 2,
+      "IDAHO": 2,
+      "KENTUCKY": 2,
+      "NORTH CAROLINA": 2,
+      "NORTH DAKOTA": 2,
+      "WASHINGTON DC": 2,
+      "WEST VIRGINIA": 2,
+      "WYOMING": 2,
+      "RHODE ISLAND": 2,
+      "OREGON": 2,
+      "ARKANSAS": 1,
+      "FLORIDA": 1,
+      "GUAM": 1,
+      "ILLINOIS": 1,
+      "LOUISIANA": 1,
+      "NEBRASKA": 1,
+      "NEVADA": 1,
+      "NEW HAMPSHIRE": 1,
+      "NEW YORK": 1,
+      "OKLAHOMA": 1,
+      "PENNSYLVANIA": 1,
+      "SOUTH CAROLINA": 1,
+      "U S VIRGIN ISLANDS": 1,
+      "UTAH": 1,
+      "VERMONT": 1,
+      "WASHINGTON": 1,
+      "DELAWARE": 1,
+      "IOWA": 1,
+      "TENNESSEE": 1
+    },
+    "duplicate_pairs_by_split": {
+      "test": {
+        "test": 1,
+        "train": 5,
+        "valid": 1
+      },
+      "train": {
+        "test": 0,
+        "train": 54,
+        "valid": 0
+      },
+      "valid": {
+        "test": 0,
+        "train": 5,
+        "valid": 0
+      }
+    },
+    "drop_threshold": 0.857,
+    "group_threshold": 0.75
+  },
+  "cross_label_lookalikes": [
+    [
+      "train/ARIZONA/002.jpg",
+      "train/INDIANA/146.jpg",
+      0.953
+    ],
+    [
+      "train/ARIZONA/023.jpg",
+      "train/TEXAS/106.jpg",
+      0.901
+    ]
+  ],
+  "most_similar_pairs": [
+    [
+      "ALABAMA",
+      "GEORGIA",
+      0.9498
+    ],
+    [
+      "NEBRASKA",
+      "OKLAHOMA",
+      0.9457
+    ],
+    [
+      "IOWA",
+      "SOUTH DAKOTA",
+      0.9444
+    ],
+    [
+      "ALABAMA",
+      "TENNESSEE",
+      0.9432
+    ],
+    [
+      "NORTH DAKOTA",
+      "UTAH",
+      0.9423
+    ],
+    [
+      "KANSAS",
+      "MONTANA",
+      0.9421
+    ],
+    [
+      "KANSAS",
+      "LOUISIANA",
+      0.9409
+    ],
+    [
+      "MASSACHUSETTS",
+      "WASHINGTON",
+      0.9402
+    ],
+    [
+      "KANSAS",
+      "WISCONSIN",
+      0.9397
+    ],
+    [
+      "IOWA",
+      "OKLAHOMA",
+      0.9395
+    ],
+    [
+      "KANSAS",
+      "NEW HAMPSHIRE",
+      0.9367
+    ],
+    [
+      "OKLAHOMA",
+      "SOUTH DAKOTA",
+      0.9367
+    ],
+    [
+      "ILLINOIS",
+      "KANSAS",
+      0.935
+    ],
+    [
+      "HAWAI",
+      "WISCONSIN",
+      0.9349
+    ],
+    [
+      "IOWA",
+      "NORTH DAKOTA",
+      0.9348
+    ],
+    [
+      "LOUISIANA",
+      "WISCONSIN",
+      0.9347
+    ],
+    [
+      "ALABAMA",
+      "NORTH DAKOTA",
+      0.9346
+    ],
+    [
+      "LOUISIANA",
+      "NEBRASKA",
+      0.9343
+    ],
+    [
+      "FLORIDA",
+      "OHIO",
+      0.9336
+    ],
+    [
+      "LOUISIANA",
+      "MONTANA",
+      0.9334
+    ],
+    [
+      "KANSAS",
+      "VIRGINIA",
+      0.9333
+    ],
+    [
+      "CALIFORNIA",
+      "COLORADO",
+      0.9329
+    ],
+    [
+      "AMERICAN SAMOA",
+      "MINNESOTA",
+      0.9314
+    ],
+    [
+      "ALABAMA",
+      "WISCONSIN",
+      0.9313
+    ],
+    [
+      "ALABAMA",
+      "KANSAS",
+      0.9311
+    ]
+  ],
+  "least_similar_pairs": [
+    [
+      "DELAWARE",
+      "U S VIRGIN ISLANDS",
+      0.6523
+    ],
+    [
+      "DELAWARE",
+      "NEBRASKA",
+      0.65
+    ],
+    [
+      "DELAWARE",
+      "VIRGINIA",
+      0.6429
+    ],
+    [
+      "ARKANSAS",
+      "DELAWARE",
+      0.6402
+    ],
+    [
+      "DELAWARE",
+      "MINNESOTA",
+      0.6398
+    ],
+    [
+      "DELAWARE",
+      "RHODE ISLAND",
+      0.6367
+    ],
+    [
+      "DELAWARE",
+      "WASHINGTON",
+      0.6365
+    ],
+    [
+      "DELAWARE",
+      "GUAM",
+      0.6346
+    ],
+    [
+      "DELAWARE",
+      "MASSACHUSETTS",
+      0.6285
+    ],
+    [
+      "DELAWARE",
+      "MISSIPPI",
+      0.6226
+    ]
+  ],
+  "similarity_summary": {
+    "count": 1540.0,
+    "mean": 0.8568,
+    "std": 0.0543,
+    "min": 0.6226,
+    "25%": 0.8302,
+    "50%": 0.8684,
+    "75%": 0.8958,
+    "max": 0.9498
+  },
+  "nearest_neighbour_similarity": {
+    "ALABAMA": 0.9498,
+    "ALASKA": 0.902,
+    "AMERICAN SAMOA": 0.9314,
+    "ARIZONA": 0.9033,
+    "ARKANSAS": 0.9285,
+    "CALIFORNIA": 0.9329,
+    "CNMI": 0.9238,
+    "COLORADO": 0.9329,
+    "CONNECTICUT": 0.901,
+    "DELAWARE": 0.8374,
+    "FLORIDA": 0.9336,
+    "GEORGIA": 0.9498,
+    "GUAM": 0.9042,
+    "HAWAI": 0.9349,
+    "IDAHO": 0.9292,
+    "ILLINOIS": 0.935,
+    "INDIANA": 0.9308,
+    "IOWA": 0.9444,
+    "KANSAS": 0.9421,
+    "KENTUCKY": 0.9259,
+    "LOUISIANA": 0.9409,
+    "MAINE": 0.921,
+    "MARYLAND": 0.93,
+    "MASSACHUSETTS": 0.9402,
+    "MICHIGAN": 0.9114,
+    "MINNESOTA": 0.9314,
+    "MISSIPPI": 0.9301,
+    "MISSOURI": 0.9283,
+    "MONTANA": 0.9421,
+    "NEBRASKA": 0.9457,
+    "NEVADA": 0.9181,
+    "NEW HAMPSHIRE": 0.9367,
+    "NEW JERSEY": 0.8958,
+    "NEW MEXICO": 0.8967,
+    "NEW YORK": 0.9104,
+    "NORTH CAROLINA": 0.9015,
+    "NORTH DAKOTA": 0.9423,
+    "OHIO": 0.9336,
+    "OKLAHOMA": 0.9457,
+    "OREGON": 0.9212,
+    "PENNSYLVANIA": 0.9104,
+    "PUERTO RICO": 0.9289,
+    "RHODE ISLAND": 0.9266,
+    "SOUTH CAROLINA": 0.9114,
+    "SOUTH DAKOTA": 0.9444,
+    "TENNESSEE": 0.9432,
+    "TEXAS": 0.8801,
+    "U S VIRGIN ISLANDS": 0.9102,
+    "UTAH": 0.9423,
+    "VERMONT": 0.8485,
+    "VIRGINIA": 0.9333,
+    "WASHINGTON": 0.9402,
+    "WASHINGTON DC": 0.9269,
+    "WEST VIRGINIA": 0.9212,
+    "WISCONSIN": 0.9397,
+    "WYOMING": 0.9275
+  }
+}

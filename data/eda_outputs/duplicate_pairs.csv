@@ -1,0 +1,149 @@
+image_a,image_b,label,split_a,split_b,similarity,verdict
+valid/OREGON/5.jpg,test/OREGON/1.jpg,OREGON,valid,test,1.0,trùng
+train/GEORGIA/120.jpg,train/GEORGIA/121.jpg,GEORGIA,train,train,0.9999,trùng
+train/CALIFORNIA/045.jpg,train/CALIFORNIA/046.jpg,CALIFORNIA,train,train,0.9999,trùng
+train/RHODE ISLAND/020.jpg,valid/RHODE ISLAND/5.jpg,RHODE ISLAND,train,valid,0.9991,trùng
+train/WASHINGTON DC/006.jpg,train/WASHINGTON DC/026.jpg,WASHINGTON DC,train,train,0.9989,trùng
+train/HAWAI/075.jpg,train/HAWAI/089.jpg,HAWAI,train,train,0.9985,trùng
+train/NEBRASKA/045.jpg,train/NEBRASKA/123.jpg,NEBRASKA,train,train,0.9985,trùng
+train/WASHINGTON DC/008.jpg,train/WASHINGTON DC/013.jpg,WASHINGTON DC,train,train,0.9984,trùng
+train/KENTUCKY/045.jpg,train/KENTUCKY/097.jpg,KENTUCKY,train,train,0.9984,trùng
+train/ALABAMA/009.jpg,train/ALABAMA/110.jpg,ALABAMA,train,train,0.9983,trùng
+train/NEVADA/042.jpg,train/NEVADA/121.jpg,NEVADA,train,train,0.9976,trùng
+train/KENTUCKY/025.jpg,valid/KENTUCKY/3.jpg,KENTUCKY,train,valid,0.9976,trùng
+train/OREGON/096.jpg,test/OREGON/4.jpg,OREGON,train,test,0.9975,trùng
+train/VERMONT/025.jpg,train/VERMONT/123.jpg,VERMONT,train,train,0.9941,trùng
+train/AMERICAN SAMOA/023.jpg,train/AMERICAN SAMOA/127.jpg,AMERICAN SAMOA,train,train,0.992,trùng
+train/WASHINGTON/027.jpg,train/WASHINGTON/103.jpg,WASHINGTON,train,train,0.9917,trùng
+train/NORTH DAKOTA/015.jpg,train/NORTH DAKOTA/086.jpg,NORTH DAKOTA,train,train,0.9896,trùng
+train/RHODE ISLAND/059.jpg,test/RHODE ISLAND/5.jpg,RHODE ISLAND,train,test,0.9878,trùng
+train/MISSOURI/120.jpg,train/MISSOURI/135.jpg,MISSOURI,train,train,0.9839,trùng
+train/ALABAMA/133.jpg,test/ALABAMA/4.jpg,ALABAMA,train,test,0.9836,trùng
+train/IDAHO/015.jpg,train/IDAHO/141.jpg,IDAHO,train,train,0.9795,trùng
+train/CONNECTICUT/102.jpg,train/CONNECTICUT/103.jpg,CONNECTICUT,train,train,0.9739,trùng
+train/NEW HAMPSHIRE/042.jpg,train/NEW HAMPSHIRE/155.jpg,NEW HAMPSHIRE,train,train,0.9686,trùng
+test/NORTH DAKOTA/2.jpg,test/NORTH DAKOTA/3.jpg,NORTH DAKOTA,test,test,0.9608,trùng
+train/WISCONSIN/090.jpg,train/WISCONSIN/138.jpg,WISCONSIN,train,train,0.9566,trùng
+train/AMERICAN SAMOA/002.jpg,train/AMERICAN SAMOA/096.jpg,AMERICAN SAMOA,train,train,0.9539,trùng
+train/WISCONSIN/003.jpg,train/WISCONSIN/069.jpg,WISCONSIN,train,train,0.9473,trùng
+train/WYOMING/104.jpg,train/WYOMING/130.jpg,WYOMING,train,train,0.9424,trùng
+train/U S VIRGIN ISLANDS/004.jpg,train/U S VIRGIN ISLANDS/017.jpg,U S VIRGIN ISLANDS,train,train,0.9418,trùng
+train/MISSOURI/039.jpg,train/MISSOURI/041.jpg,MISSOURI,train,train,0.9403,trùng
+train/NEW YORK/012.jpg,train/NEW YORK/071.jpg,NEW YORK,train,train,0.9371,trùng
+train/GUAM/061.jpg,train/GUAM/147.jpg,GUAM,train,train,0.9369,trùng
+train/HAWAI/026.jpg,train/HAWAI/078.jpg,HAWAI,train,train,0.9318,trùng
+train/WEST VIRGINIA/060.jpg,train/WEST VIRGINIA/069.jpg,WEST VIRGINIA,train,train,0.9304,trùng
+train/SOUTH DAKOTA/053.jpg,train/SOUTH DAKOTA/102.jpg,SOUTH DAKOTA,train,train,0.9294,trùng
+train/OKLAHOMA/007.jpg,train/OKLAHOMA/011.jpg,OKLAHOMA,train,train,0.9272,trùng
+train/IDAHO/030.jpg,train/IDAHO/144.jpg,IDAHO,train,train,0.9265,trùng
+train/UTAH/043.jpg,train/UTAH/157.jpg,UTAH,train,train,0.9208,trùng
+train/SOUTH DAKOTA/010.jpg,train/SOUTH DAKOTA/096.jpg,SOUTH DAKOTA,train,train,0.9206,trùng
+train/AMERICAN SAMOA/090.jpg,train/AMERICAN SAMOA/111.jpg,AMERICAN SAMOA,train,train,0.9202,trùng
+train/U S VIRGIN ISLANDS/039.jpg,train/U S VIRGIN ISLANDS/126.jpg,U S VIRGIN ISLANDS,train,train,0.9198,khác (đã xem bằng mắt)
+train/HAWAI/032.jpg,train/HAWAI/035.jpg,HAWAI,train,train,0.9193,trùng
+train/ARKANSAS/105.jpg,train/ARKANSAS/135.jpg,ARKANSAS,train,train,0.9174,trùng
+train/OHIO/134.jpg,train/OHIO/136.jpg,OHIO,train,train,0.9172,trùng
+train/WYOMING/091.jpg,train/WYOMING/149.jpg,WYOMING,train,train,0.917,trùng
+train/HAWAI/052.jpg,train/HAWAI/062.jpg,HAWAI,train,train,0.9071,trùng
+train/PENNSYLVANIA/049.jpg,train/PENNSYLVANIA/136.jpg,PENNSYLVANIA,train,train,0.9057,trùng
+train/SOUTH CAROLINA/036.jpg,train/SOUTH CAROLINA/107.jpg,SOUTH CAROLINA,train,train,0.9057,trùng
+train/GEORGIA/098.jpg,test/GEORGIA/5.jpg,GEORGIA,train,test,0.9048,trùng
+train/WISCONSIN/125.jpg,train/WISCONSIN/130.jpg,WISCONSIN,train,train,0.9016,trùng
+train/TENNESSEE/035.jpg,valid/TENNESSEE/2.jpg,TENNESSEE,train,valid,0.8965,trùng
+train/FLORIDA/034.jpg,train/FLORIDA/111.jpg,FLORIDA,train,train,0.8962,trùng
+train/MISSOURI/041.jpg,train/MISSOURI/092.jpg,MISSOURI,train,train,0.8937,trùng
+train/LOUISIANA/046.jpg,train/LOUISIANA/142.jpg,LOUISIANA,train,train,0.8919,trùng
+train/OHIO/018.jpg,train/OHIO/110.jpg,OHIO,train,train,0.89,trùng
+train/CONNECTICUT/059.jpg,train/CONNECTICUT/082.jpg,CONNECTICUT,train,train,0.8875,trùng
+train/CNMI/38.jpg,valid/CNMI/1.jpg,CNMI,train,valid,0.8867,khác (đã xem bằng mắt)
+train/SOUTH DAKOTA/091.jpg,train/SOUTH DAKOTA/094.jpg,SOUTH DAKOTA,train,train,0.886,trùng
+train/NORTH CAROLINA/089.jpg,train/NORTH CAROLINA/121.jpg,NORTH CAROLINA,train,train,0.8812,trùng
+train/DELAWARE/011.jpg,valid/DELAWARE/3.jpg,DELAWARE,train,valid,0.8801,trùng
+train/HAWAI/041.jpg,train/HAWAI/119.jpg,HAWAI,train,train,0.8783,trùng
+train/NORTH CAROLINA/142.jpg,test/NORTH CAROLINA/4.jpg,NORTH CAROLINA,train,test,0.8701,trùng
+train/CALIFORNIA/045.jpg,train/CALIFORNIA/137.jpg,CALIFORNIA,train,train,0.8689,trùng
+train/CALIFORNIA/046.jpg,train/CALIFORNIA/137.jpg,CALIFORNIA,train,train,0.8684,trùng
+train/OHIO/017.jpg,train/OHIO/106.jpg,OHIO,train,train,0.8651,trùng
+train/ARKANSAS/039.jpg,test/ARKANSAS/1.jpg,ARKANSAS,train,test,0.863,khác (đã xem bằng mắt)
+train/ILLINOIS/015.jpg,train/ILLINOIS/102.jpg,ILLINOIS,train,train,0.8601,trùng
+train/WEST VIRGINIA/085.jpg,train/WEST VIRGINIA/089.jpg,WEST VIRGINIA,train,train,0.8588,trùng
+train/IOWA/036.jpg,valid/IOWA/2.jpg,IOWA,train,valid,0.8587,trùng
+train/NEW HAMPSHIRE/140.jpg,train/NEW HAMPSHIRE/158.jpg,NEW HAMPSHIRE,train,train,0.8566,chưa chắc
+train/WYOMING/048.jpg,train/WYOMING/073.jpg,WYOMING,train,train,0.8552,chưa chắc
+train/SOUTH CAROLINA/026.jpg,train/SOUTH CAROLINA/105.jpg,SOUTH CAROLINA,train,train,0.8477,chưa chắc
+train/U S VIRGIN ISLANDS/100.jpg,train/U S VIRGIN ISLANDS/124.jpg,U S VIRGIN ISLANDS,train,train,0.8472,chưa chắc
+train/MISSOURI/039.jpg,train/MISSOURI/092.jpg,MISSOURI,train,train,0.8461,chưa chắc
+train/PUERTO RICO/002.jpg,train/PUERTO RICO/004.jpg,PUERTO RICO,train,train,0.8452,chưa chắc
+train/AMERICAN SAMOA/112.jpg,train/AMERICAN SAMOA/116.jpg,AMERICAN SAMOA,train,train,0.845,chưa chắc
+valid/ILLINOIS/1.jpg,test/ILLINOIS/5.jpg,ILLINOIS,valid,test,0.8436,chưa chắc
+train/NORTH CAROLINA/016.jpg,train/NORTH CAROLINA/070.jpg,NORTH CAROLINA,train,train,0.8427,chưa chắc
+train/NEBRASKA/029.jpg,train/NEBRASKA/033.jpg,NEBRASKA,train,train,0.8378,chưa chắc
+train/AMERICAN SAMOA/018.jpg,train/AMERICAN SAMOA/021.jpg,AMERICAN SAMOA,train,train,0.8354,chưa chắc
+train/HAWAI/044.jpg,valid/HAWAI/2.jpg,HAWAI,train,valid,0.8346,chưa chắc
+train/HAWAI/044.jpg,train/HAWAI/063.jpg,HAWAI,train,train,0.8325,chưa chắc
+train/SOUTH CAROLINA/008.jpg,train/SOUTH CAROLINA/040.jpg,SOUTH CAROLINA,train,train,0.8319,chưa chắc
+train/OHIO/122.jpg,train/OHIO/141.jpg,OHIO,train,train,0.8316,chưa chắc
+train/WYOMING/105.jpg,train/WYOMING/133.jpg,WYOMING,train,train,0.8271,chưa chắc
+train/WYOMING/010.jpg,train/WYOMING/130.jpg,WYOMING,train,train,0.8263,chưa chắc
+train/ILLINOIS/034.jpg,train/ILLINOIS/038.jpg,ILLINOIS,train,train,0.824,chưa chắc
+train/ILLINOIS/038.jpg,train/ILLINOIS/040.jpg,ILLINOIS,train,train,0.822,chưa chắc
+train/INDIANA/032.jpg,train/INDIANA/067.jpg,INDIANA,train,train,0.8217,chưa chắc
+train/HAWAI/063.jpg,valid/HAWAI/2.jpg,HAWAI,train,valid,0.8208,chưa chắc
+train/NORTH DAKOTA/080.jpg,train/NORTH DAKOTA/081.jpg,NORTH DAKOTA,train,train,0.8203,chưa chắc
+train/U S VIRGIN ISLANDS/033.jpg,train/U S VIRGIN ISLANDS/125.jpg,U S VIRGIN ISLANDS,train,train,0.8168,chưa chắc
+train/NEW YORK/014.jpg,train/NEW YORK/101.jpg,NEW YORK,train,train,0.8166,chưa chắc
+train/HAWAI/031.jpg,train/HAWAI/085.jpg,HAWAI,train,train,0.8142,chưa chắc
+train/COLORADO/112.jpg,train/COLORADO/115.jpg,COLORADO,train,train,0.8141,chưa chắc
+train/SOUTH CAROLINA/083.jpg,valid/SOUTH CAROLINA/2.jpg,SOUTH CAROLINA,train,valid,0.8135,chưa chắc
+train/ALABAMA/089.jpg,train/ALABAMA/136.jpg,ALABAMA,train,train,0.8076,chưa chắc
+train/NEBRASKA/003.jpg,train/NEBRASKA/037.jpg,NEBRASKA,train,train,0.806,chưa chắc
+train/WYOMING/010.jpg,train/WYOMING/104.jpg,WYOMING,train,train,0.8058,chưa chắc
+train/WYOMING/079.jpg,train/WYOMING/105.jpg,WYOMING,train,train,0.803,chưa chắc
+train/WASHINGTON DC/101.jpg,train/WASHINGTON DC/126.jpg,WASHINGTON DC,train,train,0.7991,chưa chắc
+train/NORTH DAKOTA/131.jpg,valid/NORTH DAKOTA/4.jpg,NORTH DAKOTA,train,valid,0.799,chưa chắc
+train/NEW HAMPSHIRE/042.jpg,test/NEW HAMPSHIRE/1.jpg,NEW HAMPSHIRE,train,test,0.7953,chưa chắc
+train/MARYLAND/130.jpg,train/MARYLAND/145.jpg,MARYLAND,train,train,0.7948,chưa chắc
+train/RHODE ISLAND/009.jpg,train/RHODE ISLAND/090.jpg,RHODE ISLAND,train,train,0.7924,chưa chắc
+train/WYOMING/028.jpg,train/WYOMING/147.jpg,WYOMING,train,train,0.7906,chưa chắc
+train/WYOMING/145.jpg,train/WYOMING/147.jpg,WYOMING,train,train,0.7864,chưa chắc
+train/WYOMING/035.jpg,train/WYOMING/070.jpg,WYOMING,train,train,0.7861,chưa chắc
+train/WASHINGTON DC/141.jpg,train/WASHINGTON DC/143.jpg,WASHINGTON DC,train,train,0.7842,chưa chắc
+train/OKLAHOMA/046.jpg,train/OKLAHOMA/047.jpg,OKLAHOMA,train,train,0.784,chưa chắc
+train/WYOMING/082.jpg,train/WYOMING/146.jpg,WYOMING,train,train,0.7834,chưa chắc
+train/WASHINGTON/051.jpg,valid/WASHINGTON/2.jpg,WASHINGTON,train,valid,0.7831,chưa chắc
+train/NEBRASKA/033.jpg,valid/NEBRASKA/5.jpg,NEBRASKA,train,valid,0.7827,chưa chắc
+train/CALIFORNIA/136.jpg,train/CALIFORNIA/138.jpg,CALIFORNIA,train,train,0.7826,chưa chắc
+train/MARYLAND/022.jpg,train/MARYLAND/053.jpg,MARYLAND,train,train,0.7811,chưa chắc
+train/NORTH CAROLINA/021.jpg,train/NORTH CAROLINA/140.jpg,NORTH CAROLINA,train,train,0.78,chưa chắc
+train/AMERICAN SAMOA/115.jpg,train/AMERICAN SAMOA/116.jpg,AMERICAN SAMOA,train,train,0.7799,chưa chắc
+train/WYOMING/080.jpg,train/WYOMING/081.jpg,WYOMING,train,train,0.7795,chưa chắc
+train/WYOMING/001.jpg,train/WYOMING/007.jpg,WYOMING,train,train,0.7766,chưa chắc
+train/NEW YORK/058.jpg,valid/NEW YORK/5.jpg,NEW YORK,train,valid,0.7762,chưa chắc
+train/WYOMING/006.jpg,train/WYOMING/105.jpg,WYOMING,train,train,0.776,chưa chắc
+train/WYOMING/028.jpg,train/WYOMING/036.jpg,WYOMING,train,train,0.7744,chưa chắc
+train/WYOMING/079.jpg,train/WYOMING/145.jpg,WYOMING,train,train,0.7739,chưa chắc
+train/MISSOURI/117.jpg,train/MISSOURI/133.jpg,MISSOURI,train,train,0.7734,chưa chắc
+train/MARYLAND/121.jpg,train/MARYLAND/130.jpg,MARYLAND,train,train,0.7705,chưa chắc
+train/MARYLAND/012.jpg,train/MARYLAND/131.jpg,MARYLAND,train,train,0.7703,chưa chắc
+train/VERMONT/037.jpg,train/VERMONT/052.jpg,VERMONT,train,train,0.7695,chưa chắc
+valid/SOUTH CAROLINA/1.jpg,valid/SOUTH CAROLINA/3.jpg,SOUTH CAROLINA,valid,valid,0.7657,chưa chắc
+train/MARYLAND/131.jpg,train/MARYLAND/143.jpg,MARYLAND,train,train,0.7636,chưa chắc
+train/WYOMING/105.jpg,train/WYOMING/147.jpg,WYOMING,train,train,0.763,chưa chắc
+train/WYOMING/014.jpg,test/WYOMING/5.jpg,WYOMING,train,test,0.7629,chưa chắc
+train/WYOMING/143.jpg,train/WYOMING/144.jpg,WYOMING,train,train,0.7617,chưa chắc
+train/WYOMING/080.jpg,train/WYOMING/144.jpg,WYOMING,train,train,0.7605,chưa chắc
+train/KENTUCKY/086.jpg,train/KENTUCKY/088.jpg,KENTUCKY,train,train,0.759,chưa chắc
+train/CALIFORNIA/065.jpg,train/CALIFORNIA/066.jpg,CALIFORNIA,train,train,0.7571,chưa chắc
+train/WYOMING/036.jpg,train/WYOMING/079.jpg,WYOMING,train,train,0.7569,chưa chắc
+train/NEW HAMPSHIRE/155.jpg,test/NEW HAMPSHIRE/1.jpg,NEW HAMPSHIRE,train,test,0.7566,chưa chắc
+train/NEBRASKA/029.jpg,valid/NEBRASKA/5.jpg,NEBRASKA,train,valid,0.7565,chưa chắc
+train/WASHINGTON/064.jpg,train/WASHINGTON/066.jpg,WASHINGTON,train,train,0.756,chưa chắc
+train/MARYLAND/121.jpg,train/MARYLAND/145.jpg,MARYLAND,train,train,0.7558,chưa chắc
+train/IOWA/068.jpg,train/IOWA/071.jpg,IOWA,train,train,0.7556,chưa chắc
+train/WYOMING/026.jpg,train/WYOMING/028.jpg,WYOMING,train,train,0.7542,chưa chắc
+train/TEXAS/099.jpg,train/TEXAS/116.jpg,TEXAS,train,train,0.7539,chưa chắc
+train/WYOMING/070.jpg,train/WYOMING/094.jpg,WYOMING,train,train,0.7538,chưa chắc
+train/AMERICAN SAMOA/112.jpg,train/AMERICAN SAMOA/115.jpg,AMERICAN SAMOA,train,train,0.7531,chưa chắc
+train/MISSOURI/038.jpg,train/MISSOURI/092.jpg,MISSOURI,train,train,0.7512,chưa chắc
+train/GUAM/107.jpg,train/GUAM/108.jpg,GUAM,train,train,0.7504,chưa chắc
+train/GUAM/056.jpg,train/GUAM/058.jpg,GUAM,train,train,0.75,chưa chắc
