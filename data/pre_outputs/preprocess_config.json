@@ -70,23 +70,25 @@
     3
   ],
   "mean": [
-    0.5489,
-    0.5411,
-    0.5062
+    0.5476,
+    0.5403,
+    0.5069
   ],
   "std": [
-    0.2921,
-    0.2734,
-    0.2845
+    0.292,
+    0.2736,
+    0.2843
   ],
   "splits": {
-    "train": 6062,
-    "valid": 1297,
-    "test": 1297
+    "train": 6109,
+    "valid": 1306,
+    "test": 1306
   },
   "seed": 42,
   "batch_size": 64,
-  "removed_duplicates": 65,
+  "removed_images": 0,
+  "similar_threshold": 0.7,
+  "images_forced_to_train": 693,
   "label_fixes": {
     "HAWAI": "HAWAII",
     "MISSIPPI": "MISSISSIPPI"
