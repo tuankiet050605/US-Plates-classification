@@ -1,0 +1,82 @@
+{
+  "clean_dir": "data/brain_mri(clean_dataset)",
+  "classes": [
+    "glioma",
+    "meningioma",
+    "notumor",
+    "pituitary"
+  ],
+  "img_size": 224,
+  "crop": true,
+  "split_seed": 43,
+  "n_raw": 7200,
+  "n_clean": 3801,
+  "n_removed": {
+    "ảnh giống hệt (giữ 1/nhóm)": 3112,
+    "ảnh augment sẵn": 203,
+    "nhóm giống nhau khác lớp": 32,
+    "loại thủ công: ảnh CT, không phải MRI": 29,
+    "loại thủ công (bản trùng): ảnh CT, không phải MRI": 10,
+    "loại thủ công (bản trùng): notumor nhưng thấy rõ tổn thương": 10,
+    "loại thủ công: notumor nhưng thấy rõ tổn thương": 3
+  },
+  "counts": {
+    "train": {
+      "glioma": 1029,
+      "meningioma": 582,
+      "notumor": 390,
+      "pituitary": 671
+    },
+    "valid": {
+      "glioma": 215,
+      "meningioma": 122,
+      "notumor": 84,
+      "pituitary": 143
+    },
+    "test": {
+      "glioma": 215,
+      "meningioma": 122,
+      "notumor": 84,
+      "pituitary": 144
+    }
+  },
+  "thresholds": {
+    "same": 0.99,
+    "group": 0.95,
+    "split": 0.9
+  },
+  "manual_removed": {
+    "Training/notumor/Tr-no_1274.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_813.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_1307.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_244.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_610.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_702.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_638.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_959.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_520.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_408.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_34.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_857.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_100.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_1242.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_537.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_407.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_719.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_462.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_700.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_90.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_174.jpg": "ảnh CT, không phải MRI",
+    "Testing/notumor/Te-no_167.jpg": "ảnh CT, không phải MRI",
+    "Testing/glioma/Te-gl_318.jpg": "ảnh CT, không phải MRI",
+    "Testing/glioma/Te-gl_74.jpg": "ảnh CT, không phải MRI",
+    "Testing/glioma/Te-gl_372.jpg": "ảnh CT, không phải MRI",
+    "Testing/meningioma/Te-me_8.jpg": "ảnh CT, không phải MRI",
+    "Testing/meningioma/Te-me_278.jpg": "ảnh CT, không phải MRI",
+    "Testing/meningioma/Te-me_26.jpg": "ảnh CT, không phải MRI",
+    "Testing/meningioma/Te-me_208.jpg": "ảnh CT, không phải MRI",
+    "Training/notumor/Tr-no_993.jpg": "notumor nhưng thấy rõ tổn thương",
+    "Training/notumor/Tr-no_1132.jpg": "notumor nhưng thấy rõ tổn thương",
+    "Training/notumor/Tr-no_498.jpg": "notumor nhưng thấy rõ tổn thương"
+  }
+}

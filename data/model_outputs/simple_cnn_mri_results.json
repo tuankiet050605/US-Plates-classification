@@ -1,0 +1,7 @@
+{
+  "test_loss": 0.32808029651641846,
+  "test_accuracy": 0.8938053250312805,
+  "test_f1_macro": 0.8852740964633548,
+  "epochs_run": 46,
+  "best_epoch": 38
+}
