@@ -1,0 +1,7 @@
+,precision,precision,recall,recall,f1-score,f1-score
+,mean,std,mean,std,mean,std
+class,,,,,,
+glioma,0.961,0.014,0.94,0.012,0.95,0.003
+meningioma,0.91,0.023,0.85,0.026,0.878,0.007
+notumor,0.946,0.006,0.976,0.0,0.961,0.003
+pituitary,0.927,0.012,0.991,0.004,0.958,0.005

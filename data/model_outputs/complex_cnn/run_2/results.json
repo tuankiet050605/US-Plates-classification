@@ -1,0 +1,12 @@
+{
+  "run": 2,
+  "test_loss": 0.6288639307022095,
+  "test_accuracy": 0.9115044474601746,
+  "test_f1_macro": 0.9066793083393798,
+  "train_accuracy": 0.9693,
+  "valid_accuracy": 0.9255,
+  "gap_accuracy": 0.0578,
+  "gap_f1_macro": 0.0612,
+  "epochs_run": 45,
+  "best_epoch": 35
+}

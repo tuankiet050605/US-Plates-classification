@@ -1,0 +1,17 @@
+{
+  "run": 1,
+  "backbone": "resnet50",
+  "head_test_accuracy": 0.8619469026548673,
+  "head_test_f1_macro": 0.8619108010319816,
+  "test_loss": 0.48353081941604614,
+  "test_accuracy": 0.9380530714988708,
+  "test_f1_macro": 0.9363550420168067,
+  "train_accuracy": 0.9981,
+  "valid_accuracy": 0.9504,
+  "gap_accuracy": 0.06,
+  "gap_f1_macro": 0.0617,
+  "epochs_head": 15,
+  "epochs_fine_tune": 28,
+  "best_epoch": 35,
+  "best_phase": "fine_tune"
+}

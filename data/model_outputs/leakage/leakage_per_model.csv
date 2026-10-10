@@ -1,0 +1,7 @@
+,n_runs,acc,acc,acc_corr_high,acc_corr_high,acc_corr_low,acc_corr_low,chenh,chenh,tang_toi_da,tang_toi_da
+,,mean,std,mean,std,mean,std,mean,std,mean,std
+group,,,,,,,,,,,
+1-NN pixel,1,0.7363,,0.9286,,0.7091,,0.2195,,0.0272,
+simple,3,0.9038,0.0143,0.8857,0.0429,0.9064,0.0115,-0.0207,0.0357,-0.0026,0.0044
+complex,3,0.9257,0.0123,0.9238,0.0297,0.9259,0.0115,-0.0021,0.0263,-0.0003,0.0033
+transfer,3,0.9386,0.001,0.9476,0.0165,0.9374,0.0035,0.0102,0.02,0.0013,0.0025
